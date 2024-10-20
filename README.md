@@ -31,7 +31,7 @@ Follow the steps below to get the project up and running on your local machine.
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/tunefinder.git
+   git clone https://github.com/AbdulRahmanMudasser/tunefinder.git
    cd tunefinder
 
 2. **Install Dependencies:**
@@ -40,7 +40,7 @@ Follow the steps below to get the project up and running on your local machine.
 
    `flutter pub get`
 
-3. **Setup ArcCloud API Key*:**
+3. **Setup ArcCloud API Key:**
 
    In the lib/config/api_keys.dart file, add your ArcCloud API key:
 
@@ -59,11 +59,17 @@ The project follows a clean and organized structure:
 lib/
 │
 ├── main.dart              # Entry point of the app
+
 ├── config/                # Configuration files (API keys, environment variables)
+
 ├── models/                # Data models (song, artist, etc.)
+
 ├── providers/             # Riverpod providers for state management
+
 ├── services/              # API services (ArcCloud integration)
+
 ├── screens/               # UI screens (Home, Song Detail, History)
+
 └── widgets/               # Reusable UI components
 
 ## State Management
