@@ -64,7 +64,7 @@ The project follows a clean and organized structure:
 ├── providers/                // Riverpod providers for state management
 ├── services/                 // API services (ArcCloud integration)
 ├── screens/                  // UI screens (Home, Song Detail, History)
-└── widgets/                  // Reusable UI components```
+└── widgets/                  // Reusable UI components
 
 ## State Management
 
