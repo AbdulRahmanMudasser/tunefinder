@@ -57,20 +57,22 @@ Follow the steps below to get the project up and running on your local machine.
 The project follows a clean and organized structure:
 
 lib/
+
 │
-├── main.dart              # Entry point of the app
 
-├── config/                # Configuration files (API keys, environment variables)
+├── main.dart              // Entry point of the app
 
-├── models/                # Data models (song, artist, etc.)
+├── config/                // Configuration files (API keys, environment variables)
 
-├── providers/             # Riverpod providers for state management
+├── models/                // Data models (song, artist, etc.)
 
-├── services/              # API services (ArcCloud integration)
+├── providers/             // Riverpod providers for state management
 
-├── screens/               # UI screens (Home, Song Detail, History)
+├── services/              // API services (ArcCloud integration)
 
-└── widgets/               # Reusable UI components
+├── screens/               // UI screens (Home, Song Detail, History)
+
+└── widgets/               // Reusable UI components
 
 ## State Management
 
@@ -94,4 +96,5 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 If you have any questions or feedback, feel free to reach out:
 
 GitHub: AbdulRahmanMudasser
+
 Email: abdulrahmanmuddasser@gmail.com
