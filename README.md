@@ -56,7 +56,7 @@ Follow the steps below to get the project up and running on your local machine.
 
 The project follows a clean and organized structure:
 
-lib/
+```lib/
 │
 ├── main.dart                 // Entry point of the app
 ├── config/                   // Configuration files (API keys, environment variables)
@@ -64,7 +64,7 @@ lib/
 ├── providers/                // Riverpod providers for state management
 ├── services/                 // API services (ArcCloud integration)
 ├── screens/                  // UI screens (Home, Song Detail, History)
-└── widgets/                  // Reusable UI components
+└── widgets/                  // Reusable UI components```
 
 ## State Management
 
